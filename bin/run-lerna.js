@@ -12,7 +12,7 @@
 
 const path = require('path');
 const Project = require('@lerna/project');
-const build = require('../packages/build');
+const build = require('@loopback/build');
 
 async function run(argv, options) {
   const project = new Project(path.join(__dirname, '..'));
