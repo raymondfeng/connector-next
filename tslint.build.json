@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json.schemastore.org/tslint",
+  "extends": ["./packages/tslint-config/tslint.build.json"],
+  "linterOptions": {
+    "exclude": [
+      "./packages/cli/generators/*/templates/**/*",
+      "./packages/cli/test/sandbox/**/*",
+      "**/*.json"
+    ]
+  }
+}
